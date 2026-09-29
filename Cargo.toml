@@ -1,0 +1,25 @@
+[package]
+name = "portsidepeer-relay"
+version = "0.1.1"
+edition = "2021"
+
+[dependencies]
+libp2p = { version = "0.54", features = [
+    "tokio",
+    "tcp",
+    "noise",
+    "yamux",
+    "relay",
+    "identify",
+    "gossipsub",
+    "dcutr",
+    "kad",
+    "autonat",
+    "macros"
+] }
+tokio = { version = "1", features = ["full"] }
+futures = "0.3"
+
+# log crates
+log = "0.4"
+env_logger = "0.11"

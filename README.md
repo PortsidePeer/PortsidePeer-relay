@@ -1,5 +1,7 @@
 # PortsidePeer relay
 
+## How to run the relay
+
 1. Download latest release. (soon)
 
 2. Set allow list mode after creating allow list.

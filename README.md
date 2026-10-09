@@ -2,7 +2,7 @@
 
 ## How to run the relay
 
-1. Download latest release. (soon)
+1. [Download Latest Release](https://github.com/PortsidePeer/PortsidePeer-relay/releases/latest)
 
 2. Set allow list mode after creating allow list.
 
